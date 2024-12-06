@@ -2,7 +2,10 @@ export default function Fruit(props) {
   return (
     <div>
       {/* {props.name} and {props.price} */}
-      {props.price > 10 ? <h1>{props.name} and {props.price}</h1> : null}
+      <h1>
+        {props.name} {props.price} {props.soldout}
+        {props.soldout ? "sold out" : null}
+      </h1>
     </div>
   );
 }
