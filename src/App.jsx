@@ -1,6 +1,8 @@
 import Fruits from "./components/fruits";
 import Hello from "./components/Hello";
 import ConditionalComponent from "./components/ConditionalComponent";
+import Message from "./components/Message";
+import Counter from "./components/Counter";
 function App() {
   const seatNumbers = [1, 2, 4];
   const person = {
@@ -10,7 +12,8 @@ function App() {
   };
   return (
     <div className="App">
-      <Fruits></Fruits>
+      <Message></Message>
+      <Counter></Counter>
     </div>
   );
 }
